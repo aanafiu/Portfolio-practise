@@ -75,7 +75,7 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    
+   
 }
 nav li a{
     text-decoration: none;
@@ -83,10 +83,15 @@ nav li a{
     font-size: 20px;
     font-weight: 400;
     padding: 19px 36px;
+     
 }
 nav li a:hover{
     background-color: #474747;
     color: white;
+}
+
+nav button{
+    margin-left: 51px;
 }
 
 
