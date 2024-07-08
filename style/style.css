@@ -7,6 +7,9 @@
 .primary-colour{
     color: #FD6E0A;
 }
+body{
+    width: 100%;
+}
 /* btn-primary */
 .btn-primary{
     background-color: #FD6E0A;
@@ -204,4 +207,161 @@ nav button{
     color: #474747;
     font-size: 20px;
 }
+
+.do{
+    width: 80%;
+    height: 595px;
+    margin: 130px auto;
+    padding: 0 50px;
+    /* background-color: #f0d6c4; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.what{
+    margin: 50px auto;
+    width: 70%;
+}
+.what h2{
+    margin: 20px 0;
+}
+.do-flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+.do-box{
+    width: 20%;
+    height:370px;
+    padding: 20px;
+    /* background-color: #FD6E0A; */
+    margin: 20px auto;
+}
+/* .do-box:hover{
+    width: 20%;
+    max-height: 350px;
+    padding: 20px;
+    background-color: #ff7c1e;
+    margin: 20px auto;
+    border-radius: 20px;
+} */
+
+.do-box img{
+    margin: 10px auto;
+}
+
+.do-box h2{
+    margin: 10px auto ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.do-box p{
+    color: #474747;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px auto;
+    z-index: 1;
+}
+
+/* Box Hover */
+#box1:hover img{
+    display: none;
+}
+
+#box1:hover {
+    background-image: url(../images/icons/js.png);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#box1:hover h2 {
+    /* z-index: 1; */
+    color: #ffffff;
+    font-size: 24px;
+}
+#box1:hover p {
+    /* z-index: 1; */
+    color: #000000;
+    font-weight: bold;
+}
+
+#box2:hover img{
+    display: none;
+}
+
+#box2:hover {
+    background-image: url(../images/icons/react.png);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#box2:hover h2 {
+    /* z-index: 1; */
+    color: #003985;
+    font-size: 24px;
+}
+#box2:hover p {
+    /* z-index: 1; */
+    color: #000000;
+    font-weight: bold;
+}
+
+
+#box3:hover img{
+    display: none;
+}
+
+#box3:hover {
+    background-image: url(../images/icons/nodejs.png);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#box3:hover h2 {
+    /* z-index: 1; */
+    color: #018a23;
+    font-size: 24px;
+}
+#box3:hover p {
+    /* z-index: 1; */
+    color: #000000;
+    font-weight: bold;
+}
+
+#box4:hover img{
+    display: none;
+}
+
+#box4:hover {
+    background-image: url(../images/icons/mongo.png);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#box4:hover h2 {
+    /* z-index: 1; */
+    color: #04a319;
+    font-size: 24px;
+}
+#box4:hover p {
+    /* z-index: 1; */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
 
