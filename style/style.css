@@ -50,7 +50,7 @@
 /* Nav */
 header{
     height: 837px;
-    width: 100vw;
+    width: 100%;
     background-image: url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: top left ;
@@ -148,15 +148,60 @@ nav button{
     margin: 0 10px 0 0;
 }
 
-
-
-
-
 .hero img {
-   /* height: 676px; */
+   height: 676px;
    width: 584px;
-   margin-right: 25px;
-   
+   margin-right: 25px; 
 }
 
+/* About */
+
+.about{
+    width: 80%;
+    height: 550px;
+    margin: 130px auto;
+    background-color: #f0d6c4;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+   
+}
+.about-container{
+    background-color: #181818;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.about-container h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.about-details{
+    font-size: 18px;
+    color: #474747;
+    font-weight: 400;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+}
+.about-me .name {
+    font-size: 20px;
+}
+.about-me label{
+    font-weight: 400;
+    color: #474747;
+    font-size: 20px;
+}
 
