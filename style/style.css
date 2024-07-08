@@ -264,7 +264,7 @@ nav button{
     font-weight: 400;
     font-size: 18px;
     margin: 10px auto;
-    z-index: 1;
+ 
 }
 
 /* Box Hover */
@@ -359,6 +359,81 @@ nav button{
     /* z-index: 1; */
     color: #ffffff;
     font-weight: bold;
+}
+
+
+/* REsume */
+.resume
+{
+    height: 877px;
+    width: 100%;
+    margin: 50px auto;
+    /* background-color: #FD6E0A; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume > h2{
+    text-align: center;
+    font-size:35px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.resume-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* background-color: #003985; */
+    padding:0 30px;
+
+}
+.edu-container{
+    text-align: left;
+    width: 100%;
+    padding: 0 50px;
+    
+}
+.experience-container{
+    text-align: left;
+    width: 100%;
+    padding: 0 50px;
+    
+}
+
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: left;
+}
+.edu{
+    margin:20px 0 0 0;
+    /* width: 50%; */
+    height: 200px;
+    text-align: left;
+}
+.edu-title{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747 ;
+    margin: 10px 0;
+}
+.edu-university{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+    margin: 10px 0;
+}
+.edu-details{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto;
+    
 }
 
 
